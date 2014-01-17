@@ -1,0 +1,12 @@
+<h1>Movie Results</h1>
+
+<ul>
+
+<%	@sorted_by_year.each do |movie_hash| %>
+<a href='/poster/<%=movie_hash["imdbID"]%>'>
+
+<li>Title: <%=movie_hash["Title"]%></a>, Year: <%=movie_hash["Year"]%>
+
+</li>
+<% end %>
+</ul>
