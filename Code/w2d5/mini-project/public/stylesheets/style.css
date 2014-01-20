@@ -1,0 +1,40 @@
+h1
+{
+font-family: Courier;
+text-shadow: 2px 2px #C0C0C0;
+}
+
+form {
+	color: #99BBCC;
+	text-align: center;
+	font-size: 24px;
+}
+
+
+.posterdiv {
+	font-family: Courier;
+	font-size: 16px;
+	line-height:90%;
+	text-align: center;
+}
+
+.infodiv {
+	text-align: right;
+
+}
+
+
+
+.indexdiv {
+	font-family: Courier;
+	font-size: 16px;
+	line-height:90%;
+	text-align: center;
+}
+
+.resultdiv {
+	font-family: Courier;
+	font-size: 16px;
+	line-height:90%;
+	text-align: center;
+}
