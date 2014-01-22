@@ -1,0 +1,9 @@
+   Please enter a new creature:
+    <form action="/creatures" method="post">
+        <input type="text" name="creature[name]"><br>
+        <textarea name="creature[description]"></textarea><br>
+        <%= token_tag form_authenticity_token %>
+        
+        <button> Create a creature</button><br>
+    </form>
+ 
